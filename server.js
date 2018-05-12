@@ -154,7 +154,7 @@ let teams = [
         nombre: 'Indiana Pacers',
         logo: '',
         estadio: [
-            {pabellon: 'Bankers Life Fieldhouse', capacidad: '18.165', propiedad: 'Pública', año: '1999', ciudad: 'Indianapolis',
+            {pabellon: 'Bankers Life Fieldhouse', capacidad: '18.165', propiedad: 'Pública', año: '1999', ciudad: 'Indiana',
              url: ''}
         ],
         jugadores: [
