@@ -123,6 +123,7 @@ let teams = [
             {id: 3, nombre: 'Harrison Barnes'},
             {id: 4, nombre: 'Dwight Powell'},
             {id: 5, nombre: 'Salah Mejri'}
+        ]
     },
     {
         id: 8,
