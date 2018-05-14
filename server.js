@@ -225,13 +225,13 @@ app.get('/', (req, res) => {
     res.status(200).send("Welcome to API REST")
 })
 
-// URL para listar todos los usuarios
+// URL para listar todos los equipos
 // http://127.0.0.1:5000/teams
 app.get('/teams', (req, res) => {
     res.send(teams)
 })
 
-
+//URL para agregar un equipo
 // http://127.0.0.1:5000/teams
 app.post('/teams', (req, res) => {
     let data = req.query;
@@ -245,7 +245,7 @@ app.post('/teams', (req, res) => {
     res.send("New team add");
 })
 
-// URL para actualizar un usuario
+// URL para actualizar un equipo
 // http://127.0.0.1:5000/teams/1
 app.patch('/teams/:id',(req, res) => {
     let params = req.params;
@@ -260,7 +260,7 @@ app.patch('/teams/:id',(req, res) => {
     res.send("Team update")
 })
 
-// URL para eliminar un usuario
+// URL para eliminar un equipo
 // http://127.0.0.1:5000/teams/1
 app.delete('/teams/:id',(req, res) => {
     let params = req.params;
